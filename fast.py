@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 # coding=utf-8
-import os,sys,time,itertools,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib
+import os,sys,time,mechanize,itertools,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib
 from multiprocessing.pool import ThreadPool
 
 #### WARNA RANDOM ####
